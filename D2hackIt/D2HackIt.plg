@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: D2HackIt - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\TEMP\RSP7245.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "D2HACKIT_EXPORTS" /Fr"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\DllMain.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\FormatString.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\GameCommandLine.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\GamePacketReceived.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\GamePacketSent.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\GamePlayerInfoIntercept.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\GamePrintFunctions.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\GameSendPacketToGame.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\GameSendPacketToServer.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\HelperFunctions.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\IniFileHandlers.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\MemorySearchFunctions.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\OtherExportedFunctions.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\psapi.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\ServerStartStop.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\TickThread.cpp"
+"C:\Microsoft Visual Studio\MyProjects\D2HackIt v0.57\D2HackIt\toolhelp.cpp"
+]
+Creating command line "cl.exe @C:\TEMP\RSP7245.TMP" 
+Creating temporary file "C:\TEMP\RSP7246.TMP" with contents
+[
+ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /pdb:none /machine:I386 /out:"..\Release\D2HackIt.dll" /implib:"Release/D2HackIt.lib" 
+".\Release\d2hackit.obj"
+".\Release\DllMain.obj"
+".\Release\FormatString.obj"
+".\Release\GameCommandLine.obj"
+".\Release\GamePacketReceived.obj"
+".\Release\GamePacketSent.obj"
+".\Release\GamePlayerInfoIntercept.obj"
+".\Release\GamePrintFunctions.obj"
+".\Release\GameSendPacketToGame.obj"
+".\Release\GameSendPacketToServer.obj"
+".\Release\HelperFunctions.obj"
+".\Release\IniFileHandlers.obj"
+".\Release\InterceptDispatcher.obj"
+".\Release\LinkedList.obj"
+".\Release\MemorySearchFunctions.obj"
+".\Release\OtherExportedFunctions.obj"
+".\Release\psapi.obj"
+".\Release\ServerStartStop.obj"
+".\Release\TickThread.obj"
+".\Release\toolhelp.obj"
+]
+Creating command line "link.exe @C:\TEMP\RSP7246.TMP"
+<h3>Output Window</h3>
+Compiling...
+DllMain.cpp
+FormatString.cpp
+GameCommandLine.cpp
+GamePacketReceived.cpp
+GamePacketSent.cpp
+GamePlayerInfoIntercept.cpp
+GamePrintFunctions.cpp
+GameSendPacketToGame.cpp
+GameSendPacketToServer.cpp
+HelperFunctions.cpp
+IniFileHandlers.cpp
+MemorySearchFunctions.cpp
+OtherExportedFunctions.cpp
+psapi.cpp
+ServerStartStop.cpp
+TickThread.cpp
+toolhelp.cpp
+Generating Code...
+Linking...
+   Creating library Release/D2HackIt.lib and object Release/D2HackIt.exp
+Creating temporary file "C:\TEMP\RSP8270.TMP" with contents
+[
+/nologo /o"Release/D2HackIt.bsc" 
+".\Release\d2hackit.sbr"
+".\Release\DllMain.sbr"
+".\Release\FormatString.sbr"
+".\Release\GameCommandLine.sbr"
+".\Release\GamePacketReceived.sbr"
+".\Release\GamePacketSent.sbr"
+".\Release\GamePlayerInfoIntercept.sbr"
+".\Release\GamePrintFunctions.sbr"
+".\Release\GameSendPacketToGame.sbr"
+".\Release\GameSendPacketToServer.sbr"
+".\Release\HelperFunctions.sbr"
+".\Release\IniFileHandlers.sbr"
+".\Release\InterceptDispatcher.sbr"
+".\Release\LinkedList.sbr"
+".\Release\MemorySearchFunctions.sbr"
+".\Release\OtherExportedFunctions.sbr"
+".\Release\psapi.sbr"
+".\Release\ServerStartStop.sbr"
+".\Release\TickThread.sbr"
+".\Release\toolhelp.sbr"]
+Creating command line "bscmake.exe @C:\TEMP\RSP8270.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+D2HackIt.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

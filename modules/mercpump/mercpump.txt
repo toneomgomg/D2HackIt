@@ -1,0 +1,27 @@
+mercpump 1.0 for D2HackIt!
+
+--------------------------------------------------------------------------------
+
+This module exploits a glitch in the client code that makes your merc appear
+to have way better stats than he/she does. *NOTE!* This is only a clientside
+effect and will not actually affect the stats on your merc on the realms!
+
+Commands:
+  .mercpump set           - Initiates hack, click on a merc tem to pump
+
+Installation:
+  Copy mercpump.d2h to your D2HackIt folder and use ".load mercpump" to load the 
+  module.
+
+Official websites: 
+  http://thohell.d2network.com
+  http://www.geocities.com/thohell/
+
+Official forum: 
+  http://forums.d2network.com/phpBB/viewforum.php?forum=35
+
+Requirements:
+  D2HackIt! 0.45 or later.
+
+/thohell
+--------------------------------------------------------------------------------
